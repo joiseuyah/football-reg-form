@@ -1,0 +1,201 @@
+html{
+    background-image: url("././images/football3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    font-size:1em;
+    }
+  *{
+    font-family:"Champions Bold",Helvetica,Arial,sans-serif;
+    text-align:center;
+    text-weight:300;
+    box-sizing:border-box;
+    
+  }
+
+  h1{
+    font-size:2em;
+    margin:0 auto;
+    padding:10px;
+    color:#f3f349;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  #survey-form{
+    border-radius:2px;
+    max-width:50vw;
+    margin:0 auto;
+    padding:15px;
+    background-color:#eed9c4;
+    color:#000;
+    
+    }
+  .form-row div{
+    display:inline-block;
+  }
+  .input-field{
+    height:2em;
+    width:14vw;
+    margin:8px 2px;
+    padding:2px 5px;
+    border-radius:2px;
+    border:1px solid #ccc;
+    text-align:left;
+    font-size:15px;
+  }
+  .right-column{
+    width:48%;
+    text-align:left;
+    vertical-align:middle;
+  }
+  .left-column{
+    width:48%;
+    text-align:right;
+    vertical-align:top;
+    margin-top:13px;
+  }
+  .position{
+    float:left;
+    padding:5px;
+    margin-right:5px;
+    cursor:pointer;
+  }
+  li{
+    list-style:none;
+    text-align:left;
+    margin:7px auto;
+    }
+  .photo-input{
+    width:0.1px;
+    height:0.1px;
+    opacity:0;
+    overflow:hidden;
+    position:absolute;
+    z-index:-1;
+  }
+  .photo-input+label{
+    display:inline-block;
+    font-weight:700;
+    color:#4c0909;
+    border:1px solid #000;
+    border-radius:3px;
+    padding:2px;
+  margin:10px 6px;
+    cursor:pointer;
+    }
+  .photo-input:focus+label,
+  .photo-input:hover+label{
+    background-color:#4c0909;
+    color:#fff;
+  }
+  ul{
+    padding-left:0px;
+  }
+  .dropdown{
+     height:2em;
+    width:33%;
+    margin:8px 2px;
+    padding:2px 5px;
+    border-radius:2px;
+    border:1px solid #f9f9f9;
+    text-align:left;
+    font-size:15px;
+  }
+  
+  .error {
+    color: darkred;
+  }
+
+
+  #submit{
+    font-size:17px;
+    background-color:#4c0909;
+    color:#FFF;
+    box-sizing:border-box;
+    font-weight:400;
+    width:90px;
+    height:30px;
+    border:1px solid #000;
+    border-radius:3px;
+    padding:5px;
+  margin:10px 6px;
+    cursor:pointer;
+      }
+  @media(max-width:1400px){
+    html{ font-size:12px;}
+    .input-field{
+      
+      font-size:12px;
+    }
+  }
+  @media(max-width:1100px){
+    .input-field{
+      width:16vw;
+      font-size:11px;
+    }}
+  @media(max-width:950px){
+    .input-field{
+      width:18vw;
+    font-size:10px;
+    }}
+  @media(max-width:827px){
+    .input-field{
+      width:19vw;
+    font-size:9px;
+    .form-row>div {
+      display: flex;
+      align-items: center;
+    }
+  @media(max-width:550px){
+    .form-row>div{
+      display:block;
+      text-align:left;
+      width:100%;
+    }
+    .form-row{
+      padding-left:2vw;
+       margin-right: 10px;
+      width: 100px;
+
+    }
+    .input-field{
+      width:40vw;
+    font-size:11px;
+      height:2.5em;
+    }
+    #dropdown{
+     height:2em;
+    width:60%;
+    margin:8px 2px;
+    padding:2px 5px;
+    border-radius:2px;
+    border:1px solid #ccc;
+    text-align:left;
+    font-size:11px;
+  }
+    #submit{
+     margin: 5px 5px;
+    }
+  }
+  ::-webkit-input-placeholder {
+   margin-left:50px;
+   
+  }
+  ::-moz-placeholder {
+    margin-left:50px;
+  
+  }
+  :-ms-input-placeholder {
+    margin-left:50px;
+   
+  }
+  ::placeholder {
+    margin-left:50px;
+   
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    box-shadow: 0 1px 10px #999;}
+  input, select, textarea {
+      transition: box-shadow .4s;
+  }
